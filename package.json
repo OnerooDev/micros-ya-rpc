@@ -1,0 +1,45 @@
+{
+  "name": "@micros-ya/rpc",
+  "version": "0.1.0",
+  "description": "Lean generic gRPC client factory shared by the @micros service SDKs.",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "eslint src",
+    "prepublishOnly": "pnpm build"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.14.4",
+    "@grpc/proto-loader": "^0.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "author": "micros-ya",
+  "keywords": [
+    "microservices",
+    "grpc",
+    "grpc-client",
+    "proto",
+    "mtls"
+  ],
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oneroodev/micros-ya-rpc.git"
+  },
+  "homepage": "https://github.com/oneroodev/micros-ya-rpc#readme",
+  "bugs": "https://github.com/oneroodev/micros-ya-rpc/issues"
+}
