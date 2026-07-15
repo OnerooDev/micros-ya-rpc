@@ -41,5 +41,6 @@
     "url": "https://github.com/oneroodev/micros-ya-rpc.git"
   },
   "homepage": "https://github.com/oneroodev/micros-ya-rpc#readme",
-  "bugs": "https://github.com/oneroodev/micros-ya-rpc/issues"
+  "bugs": "https://github.com/oneroodev/micros-ya-rpc/issues",
+  "packageManager": "pnpm@10.30.3+sha1.e73903d314ca7c463712a4e6e3c696d4b0ffa4b0"
 }
